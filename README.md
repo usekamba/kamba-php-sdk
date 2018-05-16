@@ -1,7 +1,7 @@
 # KAMBA SDK para PHP
 
 Repositório official do [KAMBA SDK para PHP ](https://docs.usekamba.com/sdk-for-php)
-Copyright 2018 KAMBA Payment Solutions. All Rights Reserved.
+. Copyright 2018 KAMBA Soluções de Pamento, Todos Direitos Reservados.
 
 O KAMBA SDK para PHP fornece um conjunto de classes e métodos para interagir através de requisições HTTP com a API do KAMBA. Você pode começar [instalando o SDK através do Composer](https://github.com/UseKamba/kamba-sdk-php/wiki#composer) ou baixando o código fonte da [última versão](https://github.com/UseKamba/kamba-sdk-php/releases).
 
@@ -9,7 +9,7 @@ O KAMBA SDK para PHP fornece um conjunto de classes e métodos para interagir at
 
 Crie uma conta Comerciante de testes na [Sandbox](https://sandbox.usekamba.com) e salve a sua *chave de API* e seu *identificador Comercinte* de testes.
 
-##Requisitos de Instalação
+## Requisitos de Instalação
 
 * PHP => 5.6
 
