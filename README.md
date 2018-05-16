@@ -40,6 +40,7 @@ require 'vendor/autoload.php';
 ## Features
 
 * Simples Cliente HTTP em PHP para trabalhar com a [API](https://docs.usekamba.com/) Kamba Checkout
+* Integraçao completa com todos os serviços da API Kamba Checkout
 
 ## Wiki
 
@@ -51,7 +52,7 @@ Se você encontrar um bug no kamba-sdk-php, gostaríamos de ouvir sobre isso *in
 
 Para ajuda e perguntas sobre o uso do kamba-sdk-php, use os recursos listados nesta [secção](https://github.com/UseKamba/kamba-sdk-php#recursos).
 
-##Testes
+## Testes
 
 Para realizar testes unitários use
 ```sh
