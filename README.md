@@ -1,4 +1,4 @@
-<img src="https://www.usekamba.com/images/icons/Image_uploaded_from_iOS.png" align="left"/>
+<img src="https://www.usekamba.com/images/icons/Image_uploaded_from_iOS.png" style="max-width:100%;height: 90px;width: 90px;" align="left"/>
 
 # KAMBA SDK PHP
 
