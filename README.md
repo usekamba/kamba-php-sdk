@@ -13,9 +13,7 @@ O KAMBA SDK para PHP fornece um conjunto de classes e métodos para interagir at
 
 Crie uma conta Comerciante de testes na [Sandbox](https://sandbox.usekamba.com) e salve a sua *chave de API* e seu *identificador Comercinte* de testes.
 
-[quote]
-**Nota:** O KAMBA SDK para PHP actualmente encontra-se em fase de especificação e desenvolvimento, se encontrar algum erro, por favor contacte-nos *info@usekamba.com*.
-[/quote]
+>**Nota:** O KAMBA SDK para PHP actualmente encontra-se em fase de especificação e desenvolvimento, se >encontrar algum erro, por favor contacte-nos *info@usekamba.com*.
 
 ## Requisitos de Instalação
 
