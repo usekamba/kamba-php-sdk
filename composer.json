@@ -1,0 +1,27 @@
+{
+    "name": "usekamba/kamba-sdk-php",
+    "type": "library",
+    "description": "KAMBA SDK for PHP is a simple PHP client library to consume KAMBA API Checkout",
+    "keywords": [
+        "payment-gateway",
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client",
+        "API client"
+    ],
+    "homepage": "http://usekamba.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nelson Júnior",
+            "email": "cazukyjunior@gmail.com",
+            "homepage": "https://github.com/dev-nelsonjr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    }
+}
