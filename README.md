@@ -17,7 +17,8 @@ Crie uma conta Comerciante de testes na [Sandbox](https://sandbox.usekamba.com) 
 
 ## Requisitos de Instalação
 
-* PHP => 5.6
+* PHP => 5.5
+>**Nota:** A versão actual é compatível com o PHP 5.5 e PHP 7.2.5. Você pode encontrá-lo em [releases](https://github.com/UseKamba/kamba-sdk-php/releases).
 
 ## Instalando o SDK
 Recomendamos instalar o Gerenciador de Dependências [Composer](https://getcomposer.org/)
