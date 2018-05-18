@@ -63,7 +63,11 @@
             "@composer install",
             "vendor/bin/phpunit"
         ],
-        "code-style": "./vendor/bin/phpcs --standard=PSR2 src/"
+        "code-style": "./vendor/bin/phpcs --standard=PSR2 src/",
+        "coverage": [
+            "@composer install",
+            "vendor/bin/phpunit --coverage-html tests/_reports"
+        ]
     },
     "extra": {
         "branch-alias": {
