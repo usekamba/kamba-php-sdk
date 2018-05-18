@@ -3,11 +3,14 @@
     "type": "library",
     "description": "KAMBA SDK for PHP is a simple PHP client library to consume KAMBA API Checkout",
     "keywords": [
-        "payment-gateway",
+        "payments angola",
+        "pagamentos angola",
+        "kamba soluções de pagamentos",
+        "kamba payment solutions",
         "http",
         "rest",
         "web service",
-        "curl",
+        "wallet",
         "client",
         "API client"
     ],
@@ -15,13 +18,56 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Nelson Júnior",
-            "email": "cazukyjunior@gmail.com",
-            "homepage": "https://github.com/dev-nelsonjr",
-            "role": "Developer"
+            "name": "Kamba",
+            "email": "info@usekamba.com",
+            "homepage": "https://www.usekamba.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/UseKamba/kamba-sdk-php"
         }
     ],
     "require": {
-        "php": ">=5.5"
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "support": {
+        "forum": "https://web.facebook.com/profile.php?id=1610007159310233&ref=br_rs",
+        "issues": "https://github.com/UseKamba/kamba-sdk-php/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamba\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kamba\\Test\\": "tests"
+        }
+    },
+    "suggest": {
+        "psr/log": "Required for using the Log middleware",
+        "squizlabs/php_codesniffer": "Required for PHP code sniffer"
+    },
+    "scripts": {
+        "test": 
+        [
+            "@composer install",
+            "vendor/bin/phpunit"
+        ],
+        "code-style": "./vendor/bin/phpcs --standard=PSR2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
     }
 }
