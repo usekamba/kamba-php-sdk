@@ -1,4 +1,4 @@
-# KAMBA SDK para PHP
+# KAMBA – SDK PHP
 
 [![Latest Version](https://img.shields.io/github/release/UseKamba/kamba-sdk-php.svg?style=flat-square)](https://github.com/UseKamba/kamba-sdk-php/releases)
 [![Build Status](https://img.shields.io/travis/UseKamba/kamba-sdk-php.svg?style=flat-square)](https://travis-ci.org/UseKamba/kamba-sdk-php)
@@ -11,13 +11,16 @@ O KAMBA SDK para PHP fornece um conjunto de classes e métodos para interagir at
 
 ## Iniciando
 
-Crie uma conta Comerciante de testes na [Sandbox](https://sandbox.usekamba.com) e salve a sua *chave de API* e seu *identificador Comercinte* de testes.
+Crie uma conta Comerciante de testes na [Sandbox](https://sandbox.usekamba.com "Kamba Sandbox") e salve a sua *chave de API* e seu *identificador Comercinte* de testes.
 
->**Nota:** O KAMBA SDK para PHP actualmente encontra-se em fase de especificação e desenvolvimento, se >encontrar algum erro, por favor contacte-nos *info@usekamba.com*.
+>**Nota:** O KAMBA SDK para PHP actualmente encontra-se em fase de especificação e desenvolvimento, se encontrar algum erro, por favor contacte-nos *info@usekamba.com*.
 
 ## Requisitos de Instalação
 
+* Uma conta ativa na [KAMBA Sandbox](https://sandbox.usekamba.com "Kamba Sandbox")
+* Certificado digital HTTPS
 * PHP => 5.5
+
 >**Nota:** A versão actual é compatível com o PHP 5.5 e PHP 7.2.5. Você pode encontrá-lo em [releases](https://github.com/UseKamba/kamba-sdk-php/releases).
 
 ## Instalando o SDK
@@ -30,7 +33,7 @@ Agora vamos instalar o KAMBA SDK para PHP
 ```sh
 composer require 'usekamba/kamba-sdk-php'
 ```
-Após a instalação, você precisa incluir o [autoloader do Composer](https://getcomposer.org/doc/04-schema.md#psr-4)
+Após a instalação, você precisa incluir o [autoloader do Composer](https://getcomposer.org/doc/04-schema.md#psr-4 "PSR-4") em seu script PHP
 
 ```sh
 require 'vendor/autoload.php';
@@ -53,11 +56,11 @@ require 'vendor/autoload.php';
 
 ## Wiki
 
-Verifique a [wiki](https://github.com/UseKamba/kamba-sdk-php/wiki) para documentação detalhada.
+Verifique a [wiki](https://github.com/UseKamba/kamba-sdk-php/wiki "Guia do Desenvolvedor") para documentação detalhada.
 
 ## Reportando um Bug
 
-Se você encontrar um bug no kamba-sdk-php, gostaríamos de ouvir sobre isso *info@usekamba.com*. Pesquise os problemas existentes e tente verificar se seu problema ainda não existe antes de criar uma nova issue. É útil incluir a versão da release do [kamba-sdk-php](https://github.com/UseKamba/kamba-sdk-php/releases), a versão do PHP e o SO que você está usando. Por favor inclua a stack trace e o log de erro se possível.
+Se você encontrar um bug no kamba-sdk-php, gostaríamos de ouvir sobre isso *info@usekamba.com*. Pesquise os problemas existentes e tente verificar se seu problema ainda não existe antes de criar uma nova issue. É útil incluir a versão da release do [kamba-sdk-php](https://github.com/UseKamba/kamba-sdk-php/releases "Versões do KAMBA SDK PHP"), a versão do PHP e o SO que você está usando. Por favor inclua a stack trace e o log de erro se possível.
 
 Para ajuda e perguntas sobre o uso do kamba-sdk-php, use os recursos listados nesta [secção](https://github.com/UseKamba/kamba-sdk-php#recursos).
 
