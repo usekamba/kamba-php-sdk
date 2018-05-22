@@ -17,8 +17,8 @@ $transaction = new Kamba\Transaction\Request\Transaction;
 
 //Criando uma transação
 $transactionResponse = $transaction->create([
-    "receiver_id" => "0ad91a92-5c75-41f2-918b-6c1ec3f72b7c",
-	"amount" => 1500,
+	"receiver_id" => "0ad91a92-5c75-41f2-918b-6c1ec3f72b7c",
+	"amount" => 1250,
 	"description" => "Kumbo da kixiquila"
 ]);
 
