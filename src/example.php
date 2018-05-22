@@ -18,9 +18,15 @@ $transaction = new Kamba\Transaction\Request\Transaction;
 //Criando uma transação
 $transactionResponse = $transaction->create([
 	"receiver_id" => "0ad91a92-5c75-41f2-918b-6c1ec3f72b7c",
-	"amount" => 1250,
-	"description" => "Kumbo da kixiquila"
+	"amount" => 100,
+	"description" => "Pagando o emprestimo"
 ]);
 
 //Resposta da transação
-print_r($transactionResponse);
+//print_r($transactionResponse);
+
+//Origem do pagamento
+echo $transactionResponse->from->firstname;
+
+//Destinatário
+echo $transactionResponse->to->firstname;
