@@ -9,7 +9,7 @@ putenv('KAMBA_API_KEY=7p2RbUyWWCq34cLd8QJJFQtt');
 // a URI ou URL padrão https://kamba-api-staging.herokuapp.com/v1/
 putenv('KAMBA_API_URI=https://kamba-api-staging.herokuapp.com/v1/');
 
-//// Instancia a entidade para realizar a transação
+// Instancia a entidade para realizar a transação
 $transaction = new Kamba\Transaction\Request\Transaction;
 
 //Criando uma transação
@@ -23,9 +23,9 @@ $transactionResponse = $transaction->create([
 //print_r($transactionResponse);
 
 //Origem do pagamento
-echo "Origem: ".$transactionResponse->from->firstname."\nEmail: "
-.$transactionResponse->from->email."\n";
+echo "Origem: {$transactionResponse->from->firstname}\nEmail: 
+{$transactionResponse->from->email}\n";
 
 //Destinatário
-echo "Destinatário: ".$transactionResponse->to->firstname."\nEmail: "
-.$transactionResponse->to->email."\n";
+echo "Destinatário: {$transactionResponse->to->firstname} 
+\nEmail: {$transactionResponse->to->email}\n";
