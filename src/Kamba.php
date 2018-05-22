@@ -13,33 +13,12 @@ class Kamba
      */
     const KAMBA_API_URI = 'KAMBA_API_URI';
 
-     /**
-     * The Environment variable name or argument for API request time out.
-     *
-     * @var string
-     */
-    const KAMBA_API_TIME_OUT = 'KAMBA_API_TIME_OUT';
-
     /**
      * The Environment variable name or argument for api_key.
      *
      * @var string
      */
     const KAMBA_API_KEY = 'KAMBA_API_KEY';
-
-    /**
-     * The Environment variable name or argument for merchant_id.
-     *
-     * @var string
-     */
-    const KAMBA_MERCHANT_ID = 'KAMBA_MERCHANT_ID';
-
-    /**
-     * KAMBA Merchant ID to be set on instances
-     *
-     * @var string
-     */
-    private static $kamba_merchant_id;
 
     /**
      * API KEY to be set on instances
@@ -114,20 +93,6 @@ class Kamba
         }
 
         return 'https://kamba-api-staging.herokuapp.com/v1/';
-    }
-
-    /**
-     * Get KAMBA Merchant ID from environment.
-     *
-     * @return string
-     */
-    public static function getKambaMerchantId()
-    {
-        if (null !== self::$kamba_merchant_id) {
-            return self::$kamba_merchant_id;
-        }
-
-        return getenv(static::KAMBA_MERCHANT_ID);
     }
 
 }
