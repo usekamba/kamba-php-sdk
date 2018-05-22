@@ -26,7 +26,9 @@ $transactionResponse = $transaction->create([
 //print_r($transactionResponse);
 
 //Origem do pagamento
-echo "Origem: ".$transactionResponse->from->firstname."\nEmail: ".$transactionResponse->from->email."\n";
+echo "Origem: ".$transactionResponse->from->firstname."\nEmail: "
+.$transactionResponse->from->email."\n";
 
 //Destinatário
-echo "Destinatário: ".$transactionResponse->to->firstname."\nEmail: ".$transactionResponse->to->email."\n";
+echo "Destinatário: ".$transactionResponse->to->firstname."\nEmail: "
+.$transactionResponse->to->email."\n";

@@ -18,14 +18,9 @@ class Request
      */
     public $lastResponse;
 
-    /**
-     * @var array
-     */
     public $lastOptions;
 
-    /**
-     * Create new CLient Requester constructor.
-     */
+
     public function __construct()
     {
         $this->client = new Client;
