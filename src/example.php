@@ -18,7 +18,7 @@ $transaction = new Kamba\Transaction\Request\Transaction;
 //Criando uma transação
 $transactionResponse = $transaction->create([
 	"receiver_id" => "0ad91a92-5c75-41f2-918b-6c1ec3f72b7c",
-	"amount" => 100,
+	"amount" => 10,
 	"description" => "Pagando o emprestimo"
 ]);
 
@@ -26,7 +26,7 @@ $transactionResponse = $transaction->create([
 //print_r($transactionResponse);
 
 //Origem do pagamento
-echo $transactionResponse->from->firstname;
+echo "Origem: ".$transactionResponse->from->firstname."\nEmail: ".$transactionResponse->from->email."\n";
 
 //Destinatário
-echo $transactionResponse->to->firstname;
+echo "Destinatário: ".$transactionResponse->to->firstname."\nEmail: ".$transactionResponse->to->email."\n";
